@@ -1,5 +1,7 @@
 # Landing Page - Doces Artesanais
-
+```
+https://sars-desenvolvimento-de-software.github.io/Landing-Page-Doces-Artesanais/
+```
 ## 🍰 Sobre o Projeto
 
 Este é um protótipo de landing page profissional para venda de doces artesanais, desenvolvido com HTML, CSS e JavaScript puro. O design é moderno, responsivo e otimizado para conversões.
