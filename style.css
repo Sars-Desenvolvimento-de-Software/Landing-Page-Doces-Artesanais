@@ -29,9 +29,9 @@ body {
   transition: all 0.3s ease;
 }
 
-.navbar {
+/*.navbar {
   padding: 1rem 0;
-}
+}*/
 
 .nav-container {
   max-width: 1200px;
@@ -49,9 +49,10 @@ body {
 }
 
 .logo img {
-  width: 80px;
+ /* width: 80px;
   height: 80px;
-  border-radius: 50%;
+  border-radius: 50%;*/
+  height: 130px;
   object-fit: cover;
 }
 
@@ -116,6 +117,7 @@ body {
   align-items: center;
   position: relative;
   overflow: hidden;
+  margin-top: 10%;
 }
 
 .hero-container {
@@ -571,6 +573,7 @@ body {
   object-fit: cover;
   display: block;
   margin-bottom: 10px;
+  background-color: white;
 }
 
 .footer-section ul {
@@ -612,8 +615,9 @@ body {
 
 @media (max-width: 600px) {
   .logo img {
-    width: 40px;
-    height: 40px;
+    /*width: 40px;
+    height: 40px;*/
+    height: 60px;
   }
 
   .logo h2 {
@@ -622,6 +626,12 @@ body {
 }
 
 @media (max-width: 768px) {
+  .logo img {
+    /*width: 40px;
+    height: 40px;*/
+    height: 30px;
+  }
+
   .hamburger {
     display: flex;
   }
@@ -703,6 +713,22 @@ body {
 
   .produto-card {
     margin: 0 10px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .logo img {
+    /*width: 40px;
+    height: 40px;*/
+    height: 110px;
+  }
+}
+
+@media (max-width: 980px) {
+  .logo img {
+    /*width: 40px;
+    height: 40px;*/
+    height: 90px;
   }
 }
 
